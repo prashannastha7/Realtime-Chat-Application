@@ -30,3 +30,5 @@ To get started with ChatterBox, follow these steps:
 4. Start the server.
    npm start
 
+5. For node and socket.
+   npm init and npm i socket.io
