@@ -16,6 +16,13 @@ const append = (message, position) => {
     }
 }
 
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const message = messageInput.value;
+    append(`You: ${message}`, 'right');
+    socket.emit('send', message);
+    messageInput.value = '';
+})
 
 const name = prompt("Enter your name to join");
 socket.emit('new-user-joined', name);
