@@ -11,7 +11,6 @@ ChatterBox is a realtime chat application built using Node.js and Socket.IO, all
 
 - **Node.js**: Backend JavaScript runtime environment for building the server-side logic.
 - **Socket.IO**: Library for realtime web applications, enabling bidirectional communication between web clients and servers.
-- **MongoDB**: NoSQL database used for storing user data and chat messages.
 - **HTML/CSS/JavaScript**: Frontend technologies for building the user interface and handling client-side interactions.
 
 ## Getting Started
@@ -24,11 +23,9 @@ To get started with ChatterBox, follow these steps:
 2. Install dependencies using npm.
    cd Chat_App
    npm install
-   
-3. Set up a MongoDB database and configure the connection in `config.js`.
 
-4. Start the server.
+3. Start the server.
    npm start
 
-5. For node and socket.
+4. For node and socket.
    npm init and npm i socket.io
