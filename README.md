@@ -20,12 +20,12 @@ To get started with ChatterBox, follow these steps:
 1. Clone this repository to your local machine. <br>
    git clone https://github.com/prashannastha7/Realtime-Chat-Application.git
    
-2. Install dependencies using npm.
-   cd Chat_App
-   npm install
+2.  For node and socket inside NodeServer.
+   npm init and npm i socket.io
 
 3. Start the server.
-   npm start
+   nodemon index.js
 
-4. For node and socket.
-   npm init and npm i socket.io
+4. Install dependencies using npm.
+   cd Chat_App
+   npm install
